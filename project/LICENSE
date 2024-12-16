@@ -1,1 +1,21 @@
-MIT License...
+
+---
+
+### **2. YAML File for Dependencies**
+Here’s the `requirements.yaml` content:
+
+```yaml
+name: project_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - fuzzywuzzy
+  - matplotlib
+  - numpy
+  - pandas
+  - seaborn
+  - shap
+  - scikit-learn
+  - xgboost
